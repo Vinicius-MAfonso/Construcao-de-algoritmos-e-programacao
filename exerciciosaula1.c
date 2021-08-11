@@ -1,8 +1,8 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <locale.h>
-void main(){
-setlocale(LC_ALL, "Portuguese");
+// #include <stdlib.h>
+// #include <stdio.h>
+// #include <locale.h>
+// void main(){
+// setlocale(LC_ALL, "Portuguese");
 // int nota1 = 0;
 // int nota2 = 0;
 // int nota3 = 0;
@@ -16,7 +16,9 @@ setlocale(LC_ALL, "Portuguese");
 // scanf("%d",&nota3);
 // printf("Digite a nota 4:");
 // scanf("%d",&nota4);
+
 // int media = ((nota1+nota2+nota3+nota4)/4);
+
 // printf("%d",media);
 
 // int valorHora, qtdHoras, salario;
@@ -25,17 +27,23 @@ setlocale(LC_ALL, "Portuguese");
 // printf("Digite quantas horas voce trabalha no mes:");
 // scanf("%d", &qtdHoras);
 // salario = valorHora * qtdHoras;
+
 // printf("Seu salario mensal é de: %d \n", salario);
 
-// João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. 
-// Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) 
-// deve pagar uma multa de R$ 4,00 por quilo excedente. João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso. 
-// Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. 
-// Imprima os dados do programa com as mensagens adequadas.
+// int peso = 0;
+// int excesso = 0;
+// int multa = 0;
 
+// printf("Informe o peso total dos peixes: ");
+// scanf("%d",&peso);
 
-
-
-
-}
+// if(peso > 50){
+//     excesso = peso - 50;
+//     multa = excesso * 4;
+//     printf("O senhor excedeu o limite estabelecido pelo regulamento (50 Kg) de pesca do estado de São Paulo e por isso deverá pagar uma multa de: R$ %d",multa);
+//     printf("\nA quantidade de Kg apresentada foi de %d!",peso);
+// }else{
+//     printf("O senhor não excedeu o limite estabelecido pelo regulamento (50 Kg) de pesca do estado de São Paulo e por isso não pagará multa!");
+//     }
+// }
 
