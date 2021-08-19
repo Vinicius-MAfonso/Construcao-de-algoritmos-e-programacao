@@ -46,4 +46,3 @@
 //     printf("O senhor não excedeu o limite estabelecido pelo regulamento (50 Kg) de pesca do estado de São Paulo e por isso não pagará multa!");
 //     }
 // }
-
